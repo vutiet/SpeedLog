@@ -11,14 +11,14 @@ import Foundation
 // MARK: - Color Log
 public extension SpeedLog {
 
-  /// Use custom UIColor desription
-  static func enableVisualColorLog() {
-    UIColor.swizzleDescription()
-  }
+    /// Use custom UIColor desription
+    static func enableVisualColorLog() {
+        UIColor.swizzleDescription()
+    }
 
-  /// Restore default UIColor desription
-  static func disableVisualColorLog() {
-    UIColor.undoDesriptionSwizzling()
-  }
+    /// Restore default UIColor desription
+    static func disableVisualColorLog() {
+        UIColor.undoDesriptionSwizzling()
+    }
 }
 
